@@ -67,6 +67,8 @@ die = Die()
 
 results=[]
 
+print("HELLO WORLD")
+
 for i in range(1000):
     results.append(die.roll()+die.roll())
 
